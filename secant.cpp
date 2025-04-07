@@ -13,7 +13,7 @@ int main(){
 	cin>>e;
 	f1 = f(x1);
 	f2 = f(x2);
-	int iter = 0, max_iter = 100-;
+	int iter = 0, max_iter = 100;
 	do{
 	x3 = ((f2*x1) - (f1*x2))/(f2-f1);
 	f3 = f(x3);
