@@ -20,7 +20,7 @@ int main(){
 	f0 = f(x0);
 	if (g0 == 0.0)
 	{
-		printf("Division by 0 error");
+		cout<<"Division by 0 error"<<endl;
 		break;
 	}
 	x1 = x0-(f0/g0);
